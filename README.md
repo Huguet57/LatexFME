@@ -1,6 +1,6 @@
 # Descripció
 
-Repositori d'apunts a Latex. Cada assignatura té una carpeta pròpia.
+Som uns cutres. Repositori d'apunts a Latex. Cada assignatura té una carpeta pròpia.
 
 #### Obligatori llegir normas.md, commits.md y tutorial_git.md abans d'editar el repositori.
 
