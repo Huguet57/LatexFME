@@ -48,6 +48,21 @@
         S_{B_1^*B_2^*} = (S_{B_1B_2}^{-1})^T = (S_{B_2B_1})^T.
     \]
 \end{prop}
+\begin{proof}
+    \[
+    	w_{B_1^*} x_{B_1} = w_{B_1^*} \lp S_{B_2B_1} x_{B_2} \rp
+	= \lp w_{B_1^*} S_{B_2B_1} \rp x_{B_2} = w_{B_2^*} x_{B_2}
+    \]
+    Entonces, esto implica que $w$ en la base $B_2^*$ desde la base $B_1^*$ se obtiene así:
+    \[
+    	\displaystyle \begin{rcases}
+		S_{B_1^*B_2^*} \cdot (w_{B_1^*})^T = (w_{B_2^*})^T \\
+		w_{B_1^*} \cdot S_{B_2B_1} = w_{B_2^*}
+	\end{rcases}
+	\implies
+	S_{B_1^*B_2^*} = (S_{B_2B_1})^T
+    \]
+\end{proof}
 
 \begin{prop}[Aplicaciones lineales]
     Sean $\E$ y $\bb{F}$ $\k$-ev. y sea $\phi \colon \E \to \bb{F}$ una
