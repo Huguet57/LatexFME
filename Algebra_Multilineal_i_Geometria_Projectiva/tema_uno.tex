@@ -267,7 +267,7 @@ Recordemos que $T_p^q(\E)$ es un $\k$-ev.
             B_p^q = \left\{ e_{i_1}^* \otimes \cdots \otimes e_{i_p}^* \otimes
             e_{j_1} \otimes \cdots \otimes e_{j_q} \vert
             \substack{i_1, \cdots, i_p \in \setb{1,\cdots,n} \\
-                j_1, \cdots, j_1 \in \setb{1,\cdots,n}} \right\}
+                j_1, \cdots, j_q \in \setb{1,\cdots,n}} \right\}
         \]
         \item \label{base_3} Si $f \in T_p^q(\E)$, las coordenadas de $f$ en la base $B_p^q$ son
         \[
@@ -287,7 +287,7 @@ Recordemos que $T_p^q(\E)$ es un $\k$-ev.
         Sean $I_0$, $J_0$ dos conjuntos de índices cualesquiera, entonces
         \[
             0 = w(e_{i_1}, \cdots, e_{i_p}, e_{j_1}^*, \cdots, e_{j_q}^*)
-            = \alpha_{I_0J_0}
+            = \alpha_{I_0J_0} \implies w \text{ l.i.}
         \]
         (Por la \ref{obs:tens_cero}). Veamos ahora que $B_p^q$
         es generadora. Sea $f \in T_p^q(\E)$, definimos $g \in T_p^q(\E)$ como
@@ -300,7 +300,7 @@ Recordemos que $T_p^q(\E)$ es un $\k$-ev.
         Tenemos ahora que
         \[
             g(e_{i_1}, \cdots, e_{i_p}, e_{j_1}^*, \cdots, e_{j_q}^*) =
-            f(e_{i_1}, \cdots, e_{i_p}, e_{j_1}^*, \cdots, e_{j_q}^*)
+            f(e_{i_1}, \cdots, e_{i_p}, e_{j_1}^*, \cdots, e_{j_q}^*) + 0
         \]
         Por la \ref{obs:tens_cero} y queda demostrado el teorema.
     \end{enumerate}
@@ -311,7 +311,7 @@ Recordemos que $T_p^q(\E)$ es un $\k$-ev.
     \begin{itemize}
         \item Sea $u \in \real^n$
         \[
-            u = u(e_1^*) + \cdots + u(e_n^*) \qquad (B_0^1 = B)
+            u = u(e_1^*) e_1 + \cdots + u(e_n^*) e_n \qquad (B_0^1 = B)
         \]
         \item Sea $w \in T_1^0(\E) (= \E^*)$
         \[
